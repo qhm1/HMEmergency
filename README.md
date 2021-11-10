@@ -8,6 +8,7 @@
 
 一款采用Swift编写的iOS app，支持一键发布紧急求助，发起远程音视频指导。
 ![image](https://github.com/QHM-tjut/HMEmergency/blob/master/photo/lal%20%E6%89%8B%E6%9C%BA2.gif?raw=true)
+<img width="150" height="150" src="https://github.com/QHM-tjut/HMEmergency/blob/master/photo/lal%20%E6%89%8B%E6%9C%BA2.gif"/>
 
 ### Contact
 
