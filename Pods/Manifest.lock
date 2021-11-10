@@ -1,0 +1,61 @@
+PODS:
+  - AEAlertView (2.2.3)
+  - Alamofire (5.4.3)
+  - AMap2DMap-NO-IDFA (5.6.1):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapFoundation-NO-IDFA (1.6.7)
+  - AMapLocation-NO-IDFA (2.6.8):
+    - AMapFoundation-NO-IDFA (~> 1.6.4)
+  - IQKeyboardManagerSwift (6.5.6)
+  - NextGrowingTextView (1.6.1)
+  - Reusable (4.1.1):
+    - Reusable/Storyboard (= 4.1.1)
+    - Reusable/View (= 4.1.1)
+  - Reusable/Storyboard (4.1.1)
+  - Reusable/View (4.1.1)
+  - SnapKit (5.0.1)
+  - Starscream (4.0.4)
+  - TXLiteAVSDK_TRTC (8.8.10261)
+
+DEPENDENCIES:
+  - AEAlertView
+  - Alamofire (~> 5.4)
+  - AMap2DMap-NO-IDFA
+  - AMapLocation-NO-IDFA
+  - IQKeyboardManagerSwift
+  - NextGrowingTextView
+  - Reusable
+  - SnapKit (~> 5.0.0)
+  - Starscream (~> 4.0.0)
+  - TXLiteAVSDK_TRTC
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AEAlertView
+    - Alamofire
+    - AMap2DMap-NO-IDFA
+    - AMapFoundation-NO-IDFA
+    - AMapLocation-NO-IDFA
+    - IQKeyboardManagerSwift
+    - NextGrowingTextView
+    - Reusable
+    - SnapKit
+    - Starscream
+    - TXLiteAVSDK_TRTC
+
+SPEC CHECKSUMS:
+  AEAlertView: 2ac369948406e6e9f08b87690f85f9600ddb23a5
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  AMap2DMap-NO-IDFA: ccecb3e2a044c17e6badb9b91c950e709368be20
+  AMapFoundation-NO-IDFA: ec05c37e6991ca9a9c5f5e38d3069581be57b6a0
+  AMapLocation-NO-IDFA: 84418826d61f64a0fc971fbd69e0ef2d16036275
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  NextGrowingTextView: 3b34f8f10b49b10bd58b61c476ca9b1c58cad380
+  Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  TXLiteAVSDK_TRTC: 081d35c647de0b28dc1845eba6346f8f22748a46
+
+PODFILE CHECKSUM: a3b9cddbe14f58d2b994aef97507c8db5b759a81
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		120503DCF1EBD2BBB9416A97 /* Pods_HMEmergency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45374A9FA36896A9586B64C3 /* Pods_HMEmergency.framework */; };
+		991CA5D127089A1D006A18B9 /* HMHomeSymptomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CA5D027089A1D006A18B9 /* HMHomeSymptomCell.swift */; };
+		991CA5D32708A108006A18B9 /* HMDoctorGuideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CA5D22708A108006A18B9 /* HMDoctorGuideVC.swift */; };
+		99224ADE271823E70064B531 /* HMVideoCallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99224ADD271823E70064B531 /* HMVideoCallVC.swift */; };
+		99224AE1271824470064B531 /* GenerateTestUserSig.m in Sources */ = {isa = PBXBuildFile; fileRef = 99224ADF271824460064B531 /* GenerateTestUserSig.m */; };
+		99224AE7271870F40064B531 /* HMApplyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99224AE6271870F40064B531 /* HMApplyManager.swift */; };
+		99224AEC271913F30064B531 /* RTC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99224AEA271913F20064B531 /* RTC.storyboard */; };
+		99224AED271913F30064B531 /* RTCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99224AEB271913F30064B531 /* RTCViewController.swift */; };
+		99224AEF2719D5510064B531 /* HMVideoCallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99224AEE2719D5510064B531 /* HMVideoCallCell.swift */; };
+		99224AF1271A9E4A0064B531 /* HMBottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99224AF0271A9E490064B531 /* HMBottomTextView.swift */; };
+		99224AF3271B16900064B531 /* HMHealthCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99224AF2271B16900064B531 /* HMHealthCardVC.swift */; };
+		99224AF5271BC6690064B531 /* HMHelperListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99224AF4271BC6690064B531 /* HMHelperListVC.swift */; };
+		99224AF7271BDB010064B531 /* HMHandbookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99224AF6271BDB010064B531 /* HMHandbookVC.swift */; };
+		99224AF9271BDF060064B531 /* HMHandBookDetalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99224AF8271BDF060064B531 /* HMHandBookDetalVC.swift */; };
+		99224AFB271BE4F70064B531 /* HMHandBookDetalVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99224AFA271BE4F70064B531 /* HMHandBookDetalVC2.swift */; };
+		995F21052701C2DD002451CE /* HomeDetalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995F21042701C2DD002451CE /* HomeDetalViewController.swift */; };
+		995F210E2701C583002451CE /* FindModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995F210D2701C583002451CE /* FindModels.swift */; };
+		995F21112702F057002451CE /* HMFindCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995F21102702F057002451CE /* HMFindCollectionViewCell.swift */; };
+		995F21132702F29F002451CE /* HMColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995F21122702F29F002451CE /* HMColorManager.swift */; };
+		995F211727031B0A002451CE /* HMMineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995F211627031B0A002451CE /* HMMineCell.swift */; };
+		995F212427056C2F002451CE /* HMwebCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995F212327056C2F002451CE /* HMwebCell.swift */; };
+		998ACF492711911700423141 /* HMNaturalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998ACF482711911700423141 /* HMNaturalVC.swift */; };
+		998ACF4B2711918F00423141 /* HMSecurityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998ACF4A2711918F00423141 /* HMSecurityVC.swift */; };
+		998ACF4E27119E8500423141 /* HMSelectSituationButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998ACF4D27119E8500423141 /* HMSelectSituationButtonCell.swift */; };
+		998ACF502711C57A00423141 /* HMHomeMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998ACF4F2711C57A00423141 /* HMHomeMessageCell.swift */; };
+		99BB72E72709A8550055E9EF /* HMSetDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BB72E62709A8550055E9EF /* HMSetDataHelper.swift */; };
+		99BB72F12709FFF00055E9EF /* HMEnrollVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BB72EB2709FFF00055E9EF /* HMEnrollVC.swift */; };
+		99BB72F22709FFF00055E9EF /* HMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BB72EC2709FFF00055E9EF /* HMLoginViewController.swift */; };
+		99BB72F32709FFF00055E9EF /* HMLoginBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BB72ED2709FFF00055E9EF /* HMLoginBaseViewController.swift */; };
+		99BB72F42709FFF00055E9EF /* HMCircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BB72EF2709FFF00055E9EF /* HMCircleButton.swift */; };
+		99BB72F52709FFF00055E9EF /* HMLoginViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BB72F02709FFF00055E9EF /* HMLoginViewCell.swift */; };
+		99BB72F7270A01420055E9EF /* HMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BB72F6270A01420055E9EF /* HMButton.swift */; };
+		99BB72F9270A01BF0055E9EF /* HMTabbarHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BB72F8270A01BF0055E9EF /* HMTabbarHeight.swift */; };
+		99BB72FD270A86440055E9EF /* HMVisitingServiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BB72FC270A86440055E9EF /* HMVisitingServiceVC.swift */; };
+		99BB72FF270A87480055E9EF /* HMHealthStationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BB72FE270A87480055E9EF /* HMHealthStationVC.swift */; };
+		99BB7303270A88BF0055E9EF /* HMHelperPlanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BB7302270A88BF0055E9EF /* HMHelperPlanVC.swift */; };
+		99BB731D270DBC5E0055E9EF /* HMLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BB731C270DBC5E0055E9EF /* HMLoginManager.swift */; };
+		99BB731F270DC9610055E9EF /* HMPatientInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BB731E270DC9610055E9EF /* HMPatientInfoCell.swift */; };
+		99BB7322270DDEEB0055E9EF /* HMDGMiniCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BB7321270DDEEB0055E9EF /* HMDGMiniCell.swift */; };
+		99BB7324270E63C30055E9EF /* HMDGImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BB7323270E63C30055E9EF /* HMDGImageCell.swift */; };
+		99CB52D62708113200EC0AF4 /* HMBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CB52D52708113200EC0AF4 /* HMBaseCell.swift */; };
+		99CB52D82708115300EC0AF4 /* HMCellTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CB52D72708115300EC0AF4 /* HMCellTopBar.swift */; };
+		99CB52DC270811E300EC0AF4 /* HMSelectBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CB52DB270811E300EC0AF4 /* HMSelectBar.swift */; };
+		99E6DC6427081E8C0080F72A /* HMSelectBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E6DC6327081E8C0080F72A /* HMSelectBarCell.swift */; };
+		99E6DC66270876BA0080F72A /* HMSelectInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E6DC65270876BA0080F72A /* HMSelectInfo.swift */; };
+		99E6DC6827087A810080F72A /* HMDoctorGuideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E6DC6727087A810080F72A /* HMDoctorGuideCell.swift */; };
+		99E6DC6A27087D790080F72A /* HMHomeMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E6DC6927087D790080F72A /* HMHomeMapCell.swift */; };
+		99F885BD2701522100E86B46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F885BC2701522100E86B46 /* AppDelegate.swift */; };
+		99F885C42701522100E86B46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F885C22701522100E86B46 /* Main.storyboard */; };
+		99F885C62701522400E86B46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99F885C52701522400E86B46 /* Assets.xcassets */; };
+		99F885C92701522400E86B46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F885C72701522400E86B46 /* LaunchScreen.storyboard */; };
+		99F885D1270153E000E86B46 /* HMHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F885D0270153E000E86B46 /* HMHomeViewController.swift */; };
+		99F885D3270153F300E86B46 /* HMFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F885D2270153F300E86B46 /* HMFindViewController.swift */; };
+		99F885D5270153F900E86B46 /* HMMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F885D4270153F900E86B46 /* HMMineViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31E9D96E8CF16302C0076952 /* Pods-HMEmergency.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMEmergency.debug.xcconfig"; path = "Target Support Files/Pods-HMEmergency/Pods-HMEmergency.debug.xcconfig"; sourceTree = "<group>"; };
+		45374A9FA36896A9586B64C3 /* Pods_HMEmergency.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMEmergency.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		991CA5D027089A1D006A18B9 /* HMHomeSymptomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMHomeSymptomCell.swift; sourceTree = "<group>"; };
+		991CA5D22708A108006A18B9 /* HMDoctorGuideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMDoctorGuideVC.swift; sourceTree = "<group>"; };
+		99224ADD271823E70064B531 /* HMVideoCallVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMVideoCallVC.swift; sourceTree = "<group>"; };
+		99224ADF271824460064B531 /* GenerateTestUserSig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenerateTestUserSig.m; sourceTree = "<group>"; };
+		99224AE0271824460064B531 /* GenerateTestUserSig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenerateTestUserSig.h; sourceTree = "<group>"; };
+		99224AE6271870F40064B531 /* HMApplyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMApplyManager.swift; sourceTree = "<group>"; };
+		99224AEA271913F20064B531 /* RTC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RTC.storyboard; sourceTree = "<group>"; };
+		99224AEB271913F30064B531 /* RTCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTCViewController.swift; sourceTree = "<group>"; };
+		99224AEE2719D5510064B531 /* HMVideoCallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMVideoCallCell.swift; sourceTree = "<group>"; };
+		99224AF0271A9E490064B531 /* HMBottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMBottomTextView.swift; sourceTree = "<group>"; };
+		99224AF2271B16900064B531 /* HMHealthCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMHealthCardVC.swift; sourceTree = "<group>"; };
+		99224AF4271BC6690064B531 /* HMHelperListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMHelperListVC.swift; sourceTree = "<group>"; };
+		99224AF6271BDB010064B531 /* HMHandbookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMHandbookVC.swift; sourceTree = "<group>"; };
+		99224AF8271BDF060064B531 /* HMHandBookDetalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMHandBookDetalVC.swift; sourceTree = "<group>"; };
+		99224AFA271BE4F70064B531 /* HMHandBookDetalVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMHandBookDetalVC2.swift; sourceTree = "<group>"; };
+		995F21042701C2DD002451CE /* HomeDetalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetalViewController.swift; sourceTree = "<group>"; };
+		995F210D2701C583002451CE /* FindModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindModels.swift; sourceTree = "<group>"; };
+		995F21102702F057002451CE /* HMFindCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMFindCollectionViewCell.swift; sourceTree = "<group>"; };
+		995F21122702F29F002451CE /* HMColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMColorManager.swift; sourceTree = "<group>"; };
+		995F211627031B0A002451CE /* HMMineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMMineCell.swift; sourceTree = "<group>"; };
+		995F212327056C2F002451CE /* HMwebCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMwebCell.swift; sourceTree = "<group>"; };
+		998ACF4427118E2700423141 /* HMEmergency.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HMEmergency.entitlements; sourceTree = "<group>"; };
+		998ACF482711911700423141 /* HMNaturalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMNaturalVC.swift; sourceTree = "<group>"; };
+		998ACF4A2711918F00423141 /* HMSecurityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMSecurityVC.swift; sourceTree = "<group>"; };
+		998ACF4D27119E8500423141 /* HMSelectSituationButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMSelectSituationButtonCell.swift; sourceTree = "<group>"; };
+		998ACF4F2711C57A00423141 /* HMHomeMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMHomeMessageCell.swift; sourceTree = "<group>"; };
+		99BB72E62709A8550055E9EF /* HMSetDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMSetDataHelper.swift; sourceTree = "<group>"; };
+		99BB72EB2709FFF00055E9EF /* HMEnrollVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMEnrollVC.swift; sourceTree = "<group>"; };
+		99BB72EC2709FFF00055E9EF /* HMLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMLoginViewController.swift; sourceTree = "<group>"; };
+		99BB72ED2709FFF00055E9EF /* HMLoginBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMLoginBaseViewController.swift; sourceTree = "<group>"; };
+		99BB72EF2709FFF00055E9EF /* HMCircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMCircleButton.swift; sourceTree = "<group>"; };
+		99BB72F02709FFF00055E9EF /* HMLoginViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMLoginViewCell.swift; sourceTree = "<group>"; };
+		99BB72F6270A01420055E9EF /* HMButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMButton.swift; sourceTree = "<group>"; };
+		99BB72F8270A01BF0055E9EF /* HMTabbarHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMTabbarHeight.swift; sourceTree = "<group>"; };
+		99BB72FC270A86440055E9EF /* HMVisitingServiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMVisitingServiceVC.swift; sourceTree = "<group>"; };
+		99BB72FE270A87480055E9EF /* HMHealthStationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMHealthStationVC.swift; sourceTree = "<group>"; };
+		99BB7302270A88BF0055E9EF /* HMHelperPlanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMHelperPlanVC.swift; sourceTree = "<group>"; };
+		99BB731C270DBC5E0055E9EF /* HMLoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMLoginManager.swift; sourceTree = "<group>"; };
+		99BB731E270DC9610055E9EF /* HMPatientInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMPatientInfoCell.swift; sourceTree = "<group>"; };
+		99BB7321270DDEEB0055E9EF /* HMDGMiniCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMDGMiniCell.swift; sourceTree = "<group>"; };
+		99BB7323270E63C30055E9EF /* HMDGImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMDGImageCell.swift; sourceTree = "<group>"; };
+		99C890ED27088DC100AB3E5E /* HMEmergency-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HMEmergency-Bridging-Header.h"; sourceTree = "<group>"; };
+		99CB52D52708113200EC0AF4 /* HMBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMBaseCell.swift; sourceTree = "<group>"; };
+		99CB52D72708115300EC0AF4 /* HMCellTopBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMCellTopBar.swift; sourceTree = "<group>"; };
+		99CB52DB270811E300EC0AF4 /* HMSelectBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMSelectBar.swift; sourceTree = "<group>"; };
+		99E6DC6327081E8C0080F72A /* HMSelectBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMSelectBarCell.swift; sourceTree = "<group>"; };
+		99E6DC65270876BA0080F72A /* HMSelectInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMSelectInfo.swift; sourceTree = "<group>"; };
+		99E6DC6727087A810080F72A /* HMDoctorGuideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMDoctorGuideCell.swift; sourceTree = "<group>"; };
+		99E6DC6927087D790080F72A /* HMHomeMapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMHomeMapCell.swift; sourceTree = "<group>"; };
+		99F885B92701522100E86B46 /* HMEmergency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMEmergency.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F885BC2701522100E86B46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99F885C32701522100E86B46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99F885C52701522400E86B46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99F885C82701522400E86B46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99F885CA2701522400E86B46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99F885D0270153E000E86B46 /* HMHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMHomeViewController.swift; sourceTree = "<group>"; };
+		99F885D2270153F300E86B46 /* HMFindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMFindViewController.swift; sourceTree = "<group>"; };
+		99F885D4270153F900E86B46 /* HMMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMMineViewController.swift; sourceTree = "<group>"; };
+		E55D4FF29B8742CB50FCF5DE /* Pods-HMEmergency.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMEmergency.release.xcconfig"; path = "Target Support Files/Pods-HMEmergency/Pods-HMEmergency.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99F885B62701522100E86B46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120503DCF1EBD2BBB9416A97 /* Pods_HMEmergency.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6183666F90E6A0545B878062 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31E9D96E8CF16302C0076952 /* Pods-HMEmergency.debug.xcconfig */,
+				E55D4FF29B8742CB50FCF5DE /* Pods-HMEmergency.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		99224AE227186FF50064B531 /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				99224AE0271824460064B531 /* GenerateTestUserSig.h */,
+				99224ADF271824460064B531 /* GenerateTestUserSig.m */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		99224AE3271870050064B531 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				99BB731C270DBC5E0055E9EF /* HMLoginManager.swift */,
+				995F21122702F29F002451CE /* HMColorManager.swift */,
+				99224AE6271870F40064B531 /* HMApplyManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		99224AE5271870240064B531 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				99BB72E62709A8550055E9EF /* HMSetDataHelper.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		995F21062701C37F002451CE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				99BB72E92709FEC30055E9EF /* Controller */,
+				99CB52CC2706D6B800EC0AF4 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		995F21072701C38D002451CE /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				99BB7301270A887F0055E9EF /* HelperPlan */,
+				99BB7300270A886A0055E9EF /* HealthStation */,
+				995F210C2701C567002451CE /* Model */,
+				995F21092701C4ED002451CE /* View */,
+				99F885D2270153F300E86B46 /* HMFindViewController.swift */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		995F21082701C3A0002451CE /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				99BB72E82709FEA50055E9EF /* Controller */,
+				995F211527031AF6002451CE /* View */,
+				99F885D4270153F900E86B46 /* HMMineViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		995F21092701C4ED002451CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				995F21102702F057002451CE /* HMFindCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		995F210C2701C567002451CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				995F210D2701C583002451CE /* FindModels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		995F210F2702EFEE002451CE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				99224AE5271870240064B531 /* Setting */,
+				99224AE3271870050064B531 /* Manager */,
+				99224AE227186FF50064B531 /* debug */,
+				99BB72F6270A01420055E9EF /* HMButton.swift */,
+				99BB72F8270A01BF0055E9EF /* HMTabbarHeight.swift */,
+				99C890ED27088DC100AB3E5E /* HMEmergency-Bridging-Header.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		995F211527031AF6002451CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				995F211627031B0A002451CE /* HMMineCell.swift */,
+				995F212327056C2F002451CE /* HMwebCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		998ACF452711907E00423141 /* Medical */ = {
+			isa = PBXGroup;
+			children = (
+				99E6DC65270876BA0080F72A /* HMSelectInfo.swift */,
+				991CA5D22708A108006A18B9 /* HMDoctorGuideVC.swift */,
+			);
+			path = Medical;
+			sourceTree = "<group>";
+		};
+		998ACF46271190A200423141 /* Natural */ = {
+			isa = PBXGroup;
+			children = (
+				998ACF482711911700423141 /* HMNaturalVC.swift */,
+			);
+			path = Natural;
+			sourceTree = "<group>";
+		};
+		998ACF47271190E700423141 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				998ACF4A2711918F00423141 /* HMSecurityVC.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		998ACF4C27119DAC00423141 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		99BB72E82709FEA50055E9EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99BB72EA2709FFF00055E9EF /* LoginVC */,
+				99224AF2271B16900064B531 /* HMHealthCardVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99BB72E92709FEC30055E9EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99224AEA271913F20064B531 /* RTC.storyboard */,
+				99224AEB271913F30064B531 /* RTCViewController.swift */,
+				99224ADD271823E70064B531 /* HMVideoCallVC.swift */,
+				99F885D0270153E000E86B46 /* HMHomeViewController.swift */,
+				995F21042701C2DD002451CE /* HomeDetalViewController.swift */,
+				998ACF46271190A200423141 /* Natural */,
+				998ACF452711907E00423141 /* Medical */,
+				998ACF47271190E700423141 /* Security */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99BB72EA2709FFF00055E9EF /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				99BB72EB2709FFF00055E9EF /* HMEnrollVC.swift */,
+				99BB72EC2709FFF00055E9EF /* HMLoginViewController.swift */,
+				99BB72ED2709FFF00055E9EF /* HMLoginBaseViewController.swift */,
+				99BB72EE2709FFF00055E9EF /* View */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		99BB72EE2709FFF00055E9EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99BB72EF2709FFF00055E9EF /* HMCircleButton.swift */,
+				99BB72F02709FFF00055E9EF /* HMLoginViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99BB7300270A886A0055E9EF /* HealthStation */ = {
+			isa = PBXGroup;
+			children = (
+				99BB72FC270A86440055E9EF /* HMVisitingServiceVC.swift */,
+				99BB72FE270A87480055E9EF /* HMHealthStationVC.swift */,
+				99224AF4271BC6690064B531 /* HMHelperListVC.swift */,
+				99224AF6271BDB010064B531 /* HMHandbookVC.swift */,
+				99224AF8271BDF060064B531 /* HMHandBookDetalVC.swift */,
+				99224AFA271BE4F70064B531 /* HMHandBookDetalVC2.swift */,
+			);
+			path = HealthStation;
+			sourceTree = "<group>";
+		};
+		99BB7301270A887F0055E9EF /* HelperPlan */ = {
+			isa = PBXGroup;
+			children = (
+				99BB7302270A88BF0055E9EF /* HMHelperPlanVC.swift */,
+			);
+			path = HelperPlan;
+			sourceTree = "<group>";
+		};
+		99BB7320270DDE770055E9EF /* DoctorGuideCell */ = {
+			isa = PBXGroup;
+			children = (
+				99CB52DB270811E300EC0AF4 /* HMSelectBar.swift */,
+				99E6DC6327081E8C0080F72A /* HMSelectBarCell.swift */,
+				998ACF4D27119E8500423141 /* HMSelectSituationButtonCell.swift */,
+				99BB7321270DDEEB0055E9EF /* HMDGMiniCell.swift */,
+				99BB7323270E63C30055E9EF /* HMDGImageCell.swift */,
+			);
+			path = DoctorGuideCell;
+			sourceTree = "<group>";
+		};
+		99CB52CC2706D6B800EC0AF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				998ACF4C27119DAC00423141 /* Security */,
+				99BB7320270DDE770055E9EF /* DoctorGuideCell */,
+				99E6DC6727087A810080F72A /* HMDoctorGuideCell.swift */,
+				99CB52D72708115300EC0AF4 /* HMCellTopBar.swift */,
+				99CB52D52708113200EC0AF4 /* HMBaseCell.swift */,
+				99E6DC6927087D790080F72A /* HMHomeMapCell.swift */,
+				991CA5D027089A1D006A18B9 /* HMHomeSymptomCell.swift */,
+				99BB731E270DC9610055E9EF /* HMPatientInfoCell.swift */,
+				998ACF4F2711C57A00423141 /* HMHomeMessageCell.swift */,
+				99224AEE2719D5510064B531 /* HMVideoCallCell.swift */,
+				99224AF0271A9E490064B531 /* HMBottomTextView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99F885B02701522100E86B46 = {
+			isa = PBXGroup;
+			children = (
+				99F885BB2701522100E86B46 /* HMEmergency */,
+				99F885BA2701522100E86B46 /* Products */,
+				6183666F90E6A0545B878062 /* Pods */,
+				9BB35035A56B3071FA041975 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99F885BA2701522100E86B46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99F885B92701522100E86B46 /* HMEmergency.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99F885BB2701522100E86B46 /* HMEmergency */ = {
+			isa = PBXGroup;
+			children = (
+				998ACF4427118E2700423141 /* HMEmergency.entitlements */,
+				995F210F2702EFEE002451CE /* Base */,
+				995F21062701C37F002451CE /* Home */,
+				995F21072701C38D002451CE /* Find */,
+				995F21082701C3A0002451CE /* Mine */,
+				99F885BC2701522100E86B46 /* AppDelegate.swift */,
+				99F885C22701522100E86B46 /* Main.storyboard */,
+				99F885C52701522400E86B46 /* Assets.xcassets */,
+				99F885C72701522400E86B46 /* LaunchScreen.storyboard */,
+				99F885CA2701522400E86B46 /* Info.plist */,
+			);
+			path = HMEmergency;
+			sourceTree = "<group>";
+		};
+		9BB35035A56B3071FA041975 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45374A9FA36896A9586B64C3 /* Pods_HMEmergency.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99F885B82701522100E86B46 /* HMEmergency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F885CD2701522400E86B46 /* Build configuration list for PBXNativeTarget "HMEmergency" */;
+			buildPhases = (
+				22785E324E366178E45138C6 /* [CP] Check Pods Manifest.lock */,
+				99F885B52701522100E86B46 /* Sources */,
+				99F885B62701522100E86B46 /* Frameworks */,
+				99F885B72701522100E86B46 /* Resources */,
+				46EB16E361FCC6D6AEF6DBC2 /* [CP] Embed Pods Frameworks */,
+				BB983B1A1FC8DC95B442D811 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMEmergency;
+			productName = HMEmergency;
+			productReference = 99F885B92701522100E86B46 /* HMEmergency.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99F885B12701522100E86B46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					99F885B82701522100E86B46 = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 99F885B42701522100E86B46 /* Build configuration list for PBXProject "HMEmergency" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99F885B02701522100E86B46;
+			productRefGroup = 99F885BA2701522100E86B46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99F885B82701522100E86B46 /* HMEmergency */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99F885B72701522100E86B46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F885C92701522400E86B46 /* LaunchScreen.storyboard in Resources */,
+				99F885C62701522400E86B46 /* Assets.xcassets in Resources */,
+				99224AEC271913F30064B531 /* RTC.storyboard in Resources */,
+				99F885C42701522100E86B46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22785E324E366178E45138C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HMEmergency-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46EB16E361FCC6D6AEF6DBC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HMEmergency/Pods-HMEmergency-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HMEmergency/Pods-HMEmergency-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HMEmergency/Pods-HMEmergency-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB983B1A1FC8DC95B442D811 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HMEmergency/Pods-HMEmergency-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HMEmergency/Pods-HMEmergency-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HMEmergency/Pods-HMEmergency-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99F885B52701522100E86B46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99224AF9271BDF060064B531 /* HMHandBookDetalVC.swift in Sources */,
+				99E6DC6427081E8C0080F72A /* HMSelectBarCell.swift in Sources */,
+				99BB72F32709FFF00055E9EF /* HMLoginBaseViewController.swift in Sources */,
+				99BB72F7270A01420055E9EF /* HMButton.swift in Sources */,
+				991CA5D127089A1D006A18B9 /* HMHomeSymptomCell.swift in Sources */,
+				99F885D3270153F300E86B46 /* HMFindViewController.swift in Sources */,
+				998ACF502711C57A00423141 /* HMHomeMessageCell.swift in Sources */,
+				99E6DC6827087A810080F72A /* HMDoctorGuideCell.swift in Sources */,
+				99224ADE271823E70064B531 /* HMVideoCallVC.swift in Sources */,
+				99224AF1271A9E4A0064B531 /* HMBottomTextView.swift in Sources */,
+				99224AFB271BE4F70064B531 /* HMHandBookDetalVC2.swift in Sources */,
+				99F885D1270153E000E86B46 /* HMHomeViewController.swift in Sources */,
+				998ACF4E27119E8500423141 /* HMSelectSituationButtonCell.swift in Sources */,
+				995F212427056C2F002451CE /* HMwebCell.swift in Sources */,
+				99BB7324270E63C30055E9EF /* HMDGImageCell.swift in Sources */,
+				995F211727031B0A002451CE /* HMMineCell.swift in Sources */,
+				99F885D5270153F900E86B46 /* HMMineViewController.swift in Sources */,
+				99E6DC66270876BA0080F72A /* HMSelectInfo.swift in Sources */,
+				99224AEF2719D5510064B531 /* HMVideoCallCell.swift in Sources */,
+				99224AED271913F30064B531 /* RTCViewController.swift in Sources */,
+				99BB72F22709FFF00055E9EF /* HMLoginViewController.swift in Sources */,
+				998ACF492711911700423141 /* HMNaturalVC.swift in Sources */,
+				99BB72F9270A01BF0055E9EF /* HMTabbarHeight.swift in Sources */,
+				99BB72F52709FFF00055E9EF /* HMLoginViewCell.swift in Sources */,
+				99BB72F12709FFF00055E9EF /* HMEnrollVC.swift in Sources */,
+				99224AF5271BC6690064B531 /* HMHelperListVC.swift in Sources */,
+				99CB52DC270811E300EC0AF4 /* HMSelectBar.swift in Sources */,
+				99224AF7271BDB010064B531 /* HMHandbookVC.swift in Sources */,
+				99BB72FD270A86440055E9EF /* HMVisitingServiceVC.swift in Sources */,
+				99224AE1271824470064B531 /* GenerateTestUserSig.m in Sources */,
+				99224AF3271B16900064B531 /* HMHealthCardVC.swift in Sources */,
+				99E6DC6A27087D790080F72A /* HMHomeMapCell.swift in Sources */,
+				99224AE7271870F40064B531 /* HMApplyManager.swift in Sources */,
+				995F21132702F29F002451CE /* HMColorManager.swift in Sources */,
+				99BB7322270DDEEB0055E9EF /* HMDGMiniCell.swift in Sources */,
+				99BB731D270DBC5E0055E9EF /* HMLoginManager.swift in Sources */,
+				998ACF4B2711918F00423141 /* HMSecurityVC.swift in Sources */,
+				99F885BD2701522100E86B46 /* AppDelegate.swift in Sources */,
+				995F21052701C2DD002451CE /* HomeDetalViewController.swift in Sources */,
+				99BB72FF270A87480055E9EF /* HMHealthStationVC.swift in Sources */,
+				991CA5D32708A108006A18B9 /* HMDoctorGuideVC.swift in Sources */,
+				99CB52D82708115300EC0AF4 /* HMCellTopBar.swift in Sources */,
+				995F21112702F057002451CE /* HMFindCollectionViewCell.swift in Sources */,
+				995F210E2701C583002451CE /* FindModels.swift in Sources */,
+				99CB52D62708113200EC0AF4 /* HMBaseCell.swift in Sources */,
+				99BB7303270A88BF0055E9EF /* HMHelperPlanVC.swift in Sources */,
+				99BB72F42709FFF00055E9EF /* HMCircleButton.swift in Sources */,
+				99BB72E72709A8550055E9EF /* HMSetDataHelper.swift in Sources */,
+				99BB731F270DC9610055E9EF /* HMPatientInfoCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99F885C22701522100E86B46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99F885C32701522100E86B46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99F885C72701522400E86B46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99F885C82701522400E86B46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99F885CB2701522400E86B46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99F885CC2701522400E86B46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99F885CE2701522400E86B46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31E9D96E8CF16302C0076952 /* Pods-HMEmergency.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HMEmergency/HMEmergency.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6487CXH2D5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HMEmergency/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QHM.HMEmergency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HMEmergency/Base/HMEmergency-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99F885CF2701522400E86B46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E55D4FF29B8742CB50FCF5DE /* Pods-HMEmergency.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HMEmergency/HMEmergency.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6487CXH2D5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HMEmergency/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QHM.HMEmergency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HMEmergency/Base/HMEmergency-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99F885B42701522100E86B46 /* Build configuration list for PBXProject "HMEmergency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F885CB2701522400E86B46 /* Debug */,
+				99F885CC2701522400E86B46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99F885CD2701522400E86B46 /* Build configuration list for PBXNativeTarget "HMEmergency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F885CE2701522400E86B46 /* Debug */,
+				99F885CF2701522400E86B46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99F885B12701522100E86B46 /* Project object */;
+}

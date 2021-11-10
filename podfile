@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target 'HMEmergency' do
+    pod 'SnapKit', '~> 5.0.0'
+    pod 'Reusable'
+    pod 'IQKeyboardManagerSwift'
+    pod 'Alamofire', '~> 5.4'
+    pod 'AEAlertView'
+    pod 'AMap2DMap-NO-IDFA'
+    pod 'AMapLocation-NO-IDFA'
+    pod 'Starscream', '~> 4.0.0'
+    pod 'NextGrowingTextView'
+    pod 'TXLiteAVSDK_TRTC'
+end
